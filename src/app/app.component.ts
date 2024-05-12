@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { InputFormComponent } from './input-form/input-form.component';
 import { ListComponent } from './list/list.component';
 import { CreationMenuComponent } from './creation-menu/creation-menu.component';
+import { ArchiveComponent } from './archive/archive.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { CreationMenuComponent } from './creation-menu/creation-menu.component';
     ListComponent,
     InputFormComponent,
     CreationMenuComponent,
+    ArchiveComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
