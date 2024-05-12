@@ -1,0 +1,10 @@
+<article>
+    <h2>{{article.title}}</h2>
+    <p>Категория: <strong>{{article.category}}</strong></p>
+    <p>Автор: <strong>{{article.author}}</strong></p>
+    <p>{{article.content}}</p>
+    <div class="actionButtons">
+        <button class="deleteButton" (click)="onDelete()">Удалить</button>
+        <button class="archiveButton" (click)="onArchive()">Архив</button>
+    </div>
+</article>
