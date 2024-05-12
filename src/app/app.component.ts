@@ -28,6 +28,7 @@ export class AppComponent {
     category: string;
     content: string;
   }> = [];
+
   archivedArticles: Array<{
     author: string;
     title: string;
@@ -43,6 +44,7 @@ export class AppComponent {
   }) {
     this.articles.push(article);
   }
+
   onArchiveArticle(index: number) {
     this.archivedArticles.push(this.articles[index]);
     this.articles.splice(index, 1);
