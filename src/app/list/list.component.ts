@@ -1,11 +1,12 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { ArticleComponent } from '../article/article.component';
 import { HeaderComponent } from '../header/header.component';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-list',
   standalone: true,
-  imports: [HeaderComponent, ArticleComponent],
+  imports: [HeaderComponent, ArticleComponent, NgFor],
   templateUrl: './list.component.html',
   styleUrl: './list.component.scss',
 })
