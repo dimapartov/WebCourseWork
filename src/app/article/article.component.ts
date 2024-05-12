@@ -14,11 +14,15 @@ export class ArticleComponent {
     author: 'Article Author',
     content: 'Article Content',
   };
+
   @Output() deleteArticle = new EventEmitter<void>();
+
   @Output() archiveArticle = new EventEmitter<void>();
+
   onDelete() {
     this.deleteArticle.emit();
   }
+
   onArchive() {
     this.archiveArticle.emit();
   }

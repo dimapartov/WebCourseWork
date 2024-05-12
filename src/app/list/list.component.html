@@ -1,0 +1,5 @@
+<div class="articlesList">
+    <app-header [title]="'Записи'"></app-header>
+    <app-article *ngFor="let article of articles; index as i" [article]="article" (deleteArticle)="onDelete(i)"
+        (archiveArticle)="onArchive(i)"></app-article>
+</div>
