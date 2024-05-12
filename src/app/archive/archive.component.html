@@ -1,0 +1,6 @@
+<div class="archive">
+    <app-header [title]="'Архив'"></app-header>
+    <ul>
+        <li *ngFor="let article of articles; index as i">{{article.title}}</li>
+    </ul>
+</div>
