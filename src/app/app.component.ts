@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
-import { InputFormComponent } from './input-form/input-form.component';
-import { ListComponent } from './list/list.component';
-import { CreationMenuComponent } from './creation-menu/creation-menu.component';
-import { ArchiveComponent } from './archive/archive.component';
+import { HeaderComponent } from './components/header/header.component';
+import { InputFormComponent } from './components/input-form/input-form.component';
+import { ListComponent } from './components/list/list.component';
+import { CreationMenuComponent } from './components/creation-menu/creation-menu.component';
+import { ArchiveComponent } from './components/archive/archive.component';
 
 @Component({
   selector: 'app-root',
@@ -12,8 +12,8 @@ import { ArchiveComponent } from './archive/archive.component';
   imports: [
     RouterOutlet,
     HeaderComponent,
-    ListComponent,
     InputFormComponent,
+    ListComponent,
     CreationMenuComponent,
     ArchiveComponent,
   ],
