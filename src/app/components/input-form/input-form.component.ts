@@ -30,7 +30,6 @@ export class InputFormComponent {
       category: this.article.value.category!,
       content: this.article.value.content!,
     };
-
     this.newArticle.emit(articleData);
   }
 }
