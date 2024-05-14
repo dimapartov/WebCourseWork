@@ -21,10 +21,6 @@ export class CreationMenuComponent {
   @ViewChild(InputFormComponent)
   inputFormComponent!: InputFormComponent;
 
-  constructor() {
-    this.inputFormComponent = new InputFormComponent();
-  }
-
   ngAfterViewInit() {
     this.inputFormComponent.newArticle.subscribe((article) =>
       this.newArticle.emit(article)
