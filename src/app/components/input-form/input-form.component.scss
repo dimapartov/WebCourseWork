@@ -2,14 +2,10 @@ button {
   background-color: #006b09;
   color: white;
   cursor: pointer;
-  border-radius: 15%;
+  border-radius: 10px;
   border: none;
   padding: 15px;
   font-size: 15px;
-}
-
-button:focus {
-  background-color: #07b148;
 }
 
 input, textarea {
