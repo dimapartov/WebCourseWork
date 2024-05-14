@@ -1,0 +1,31 @@
+article {
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    font-family: Arial,
+    sans-serif;
+
+    .deleteButton {
+        background-color: #cf3a15;
+        color: white;
+    }
+
+    .archiveButton {
+        background-color: #A3AE99;
+        color: white;
+    }
+
+    .actionButtons {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            margin-left: 10px;
+            border-radius: 15%;
+            border: none;
+            padding: 7px;
+            cursor: pointer;
+        }
+    }
+}

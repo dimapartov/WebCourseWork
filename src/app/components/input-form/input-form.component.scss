@@ -1,0 +1,34 @@
+button {
+  background-color: #006b09;
+  color: white;
+  cursor: pointer;
+  border-radius: 15%;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+}
+
+button:focus {
+  background-color: #07b148;
+}
+
+input, textarea {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #40493B;
+  padding: 5px;
+  width: 90%;
+}
+
+textarea {
+  height: 300px;
+  border: 2px solid #40493B;
+}
+
+form {
+  text-align: start;
+  margin-top: 1rem;
+}

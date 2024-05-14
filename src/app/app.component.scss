@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    margin-top: 20px;
+    overflow: auto;
+    min-height: 780px;
+    height: 70vh;
+    justify-content: space-between;
+}
+
+main, aside {
+    border-radius: 15px;
+    box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
+    border: dashed 0.1rem #006b09;
+    padding: 10px;
+}
+
+main {
+    flex: 75%;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: auto;
+}
+
+aside {
+    flex: 25%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
