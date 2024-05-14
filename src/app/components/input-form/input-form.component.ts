@@ -25,14 +25,14 @@ export class InputFormComponent {
 
   onSubmit() {
     const { author, title, category, content } = this.article.value;
+
     const articleData = {
-      author: author || '',
-      title: title || '',
-      category: category || '',
-      content: content || '',
+      author: author!,
+      title: title!,
+      category: category!,
+      content: content!,
     };
 
     this.newArticle.emit(articleData);
-    this.article.reset();
   }
 }

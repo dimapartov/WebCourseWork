@@ -1,15 +1,11 @@
 <form [formGroup]="article" (ngSubmit)="onSubmit()">
     <label for="author">Автор</label>
     <input type="text" id="author" formControlName="author" required>
-
     <label for="title">Заголовок</label>
     <input type="text" id="title" formControlName="title" required>
-
     <label for="category">Категория</label>
     <input type="text" id="category" formControlName="category" required>
-
     <label for="content">Содержание</label>
     <textarea id="content" formControlName="content" required></textarea>
-
     <button type="submit">Создать</button>
 </form>
